@@ -1,0 +1,21 @@
+:root {
+  --color-primary: #2a4d93;
+  --color-secondary: #937c2a;
+  --color-dark: #1e1e1e;
+  --color-light: #f2f7fd;
+  --color-background: #f2f2f2;
+}
+
+.privacy {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.privacy h2 {
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.privacy section p span {
+  font-weight: 700;
+}
