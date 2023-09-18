@@ -127,4 +127,59 @@ a {
 }
 /* End of Siora */
 
+/* Directors */
+.director {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  padding: 4rem 0;
+}
 
+.director figure {
+  width: 100rem;
+}
+
+.director p {
+  margin: 1.5rem 0;
+}
+
+.director li a {
+  border-radius: 4px;
+  border: 1px solid var(--color-primary);
+  padding: 0.4rem 4rem;
+}
+/* Directores */
+
+/* Contact */
+.contact {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5rem 0;
+}
+
+.contact div p {
+  margin: 1rem 0;
+}
+
+.contact figure {
+  width: 50rem;
+}
+
+.contact form {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 0.6rem;
+  border-radius: 4px;
+}
+
+.sub-btn {
+  border-radius: 40px;
+  background: var(--color-primary);
+  padding: 0.6rem 1rem;
+  color: #fff;
+}
+/* Contact */
