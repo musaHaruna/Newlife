@@ -196,7 +196,7 @@ a {
 }
 .latest-news-card {
   display: flex;
-  margin: 2rem;
+  margin: 2rem 0;
   gap: 2rem;
 }
 
@@ -206,7 +206,7 @@ a {
 
 .latest-news-card h3,
 p {
-  margn: 0.7rem 0;
+  margin: 0.7rem 0;
 }
 
 .latest-news-card li {
@@ -219,4 +219,28 @@ p {
   background-color: var(--color-primary);
   color: #fff;
   border-radius: 5px;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 1.5rem auto;
+  padding-top: 5rem;
+}
+
+.footer-nav ul li {
+  margin: 0.7rem 0;
+}
+
+.footer-nav div figure {
+  width: 30%;
+}
+
+.footer-nav ul li a {
+  color: var(--color-dark);
+}
+
+.socials {
+  display: flex;
+  gap: 1rem;
 }
