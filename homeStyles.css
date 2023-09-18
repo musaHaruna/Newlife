@@ -183,3 +183,40 @@ a {
   color: #fff;
 }
 /* Contact */
+
+/* latest news */
+
+.latest-news {
+  margin: 3rem auto;
+}
+
+.latest-news h2 {
+  text-align: center;
+  margin-bottom: 7rem;
+}
+.latest-news-card {
+  display: flex;
+  margin: 2rem;
+  gap: 2rem;
+}
+
+.latest-news-card h3 {
+  font-size: 20px;
+}
+
+.latest-news-card h3,
+p {
+  margin: 0.7rem 0;
+}
+
+.latest-news-card li {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.latest-news-card li a {
+  padding: 0.6rem 1rem;
+  background-color: var(--color-primary);
+  color: #fff;
+  border-radius: 5px;
+}
