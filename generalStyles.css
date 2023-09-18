@@ -1,0 +1,108 @@
+/* Box sizing reset to border-box for all elements */
+
+:root {
+  --color-primary: #2a4d93;
+  --color-secondary: #937c2a;
+  --color-dark: #1e1e1e;
+  --color-light: #f2f7fd;
+  --color-background: #f2f2f2;
+}
+
+html {
+  box-sizing: border-box;
+  color: var(--color-dark);
+}
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Reset margins and paddings for most elements */
+
+/* Remove list styles on ul and ol elements */
+ul,
+ol,
+li {
+  list-style: none;
+}
+
+/* Remove hyperlinks text decoration */
+a {
+  text-decoration: none;
+}
+
+/* Set default font and color */
+body {
+  font-family: 'Open Sans', sans-serif;
+  color: #000; /* Default text color */
+}
+
+/* Set a base font size for easier rem units */
+html {
+  font-size: 16px;
+}
+
+h1,
+h2 {
+  font-size: 40px;
+  color: var(--color-primary);
+}
+
+h3 {
+  font-size: 24px;
+  color: var(--color-primary);
+}
+
+p,
+a {
+  font-size: 20px;
+}
+
+.latest-new-card div p {
+  font-size: 16px;
+}
+
+.header-nav ul li {
+  color: var(--color-primary);
+}
+
+.footer-nav ul li a {
+  font-size: 16px;
+}
+
+.footer-nav ul p {
+  font-size: 16px;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.hero-bg {
+  background: var(
+    #ffff,
+    linear-gradient(
+      358deg,
+      rgba(255, 255, 255, 0.2) 38.89%,
+      rgba(143, 168, 255, 0.13) 86.34%
+    ),
+    #fff
+  );
+}
+
+.contact-bg {
+  background-color: var(--color-background);
+}
+
+.director-bg {
+  background-color: var(--color-light);
+}
+
+.socials p i {
+  color: var(--color-primary);
+}

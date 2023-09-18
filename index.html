@@ -11,20 +11,29 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700;800;900&family=Rubik:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="generalStyles.css" />
   </head>
   <body>
     <header>
-      <nav>
+      <nav class="header-nav container">
         <div>
           <img src="Assets/Homepage/logo.png" alt="logo" />
         </div>
         <ul>
           <li><a href="">Home</a></li>
-          <li><a href="">About</a><i class="fa-solid fa-arrow-down"></i></li>
+          <li><a href="">About</a><i class="fa-solid fa-chevron-down"></i></li>
           <li>
-            <a href="">Resources</a><i class="fa-solid fa-arrow-down"></i>
+            <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
           </li>
-          <li><a href="">Research</a><i class="fa-solid fa-arrow-down"></i></li>
+          <li>
+            <a href="">Research</a><i class="fa-solid fa-chevron-down"></i>
+          </li>
           <li><a href="">Donate</a></li>
         </ul>
         <ul>
@@ -34,8 +43,8 @@
       </nav>
     </header>
 
-    <main>
-      <article>
+    <main class="hero-bg">
+      <article class="hero container">
         <section>
           <h1>
             We help Students identify the right Scholarship Opportunity for them
@@ -54,8 +63,9 @@
         <figure><img src="Assets/Homepage/hero-image.png" alt="hero" /></figure>
       </article>
     </main>
+
     <article>
-      <section>
+      <section class="container">
         <h2>Our Partners</h2>
         <div>
           <img src="Assets/Homepage/UPCI.png" alt="" />
@@ -71,7 +81,7 @@
     </article>
 
     <article>
-      <section>
+      <section class="container">
         <figure>
           <img src="Assets/Homepage/siora.png" alt="siora" />
         </figure>
@@ -91,8 +101,8 @@
       </section>
     </article>
 
-    <article>
-      <section>
+    <article class="director-bg">
+      <section class="director container">
         <div>
           <h2>From our Director’s Desk</h2>
           <p>
@@ -117,8 +127,8 @@
       </section>
     </article>
 
-    <article>
-      <section>
+    <article class="contact-bg">
+      <section class="contact container">
         <figure><img src="Assets/Homepage/mail.png" alt="mail" /></figure>
         <div>
           <h2>Don’t miss any opportunity again</h2>
@@ -135,9 +145,9 @@
     </article>
 
     <article>
-      <article>
+      <article class="latest-news container">
         <h2>Latest News</h2>
-        <section>
+        <section class="latest-news-card">
           <div>
             <figure>
               <img src="Assets/Homepage/student.png" alt="student" />
@@ -160,12 +170,12 @@
     </article>
 
     <footer>
-      <nav>
+      <nav class="footer-nav container">
         <div>
           <figure><img src="Assets/Homepage/logo.png" alt="logo" /></figure>
           <p>@ copyright 2023 NELIREF</p>
           <p>All rights reserved</p>
-          <div>
+          <div class="socials">
             <p><i class="fa-brands fa-instagram"></i></p>
             <p><i class="fa-brands fa-facebook"></i></p>
             <p><i class="fa-brands fa-twitter"></i></p>
