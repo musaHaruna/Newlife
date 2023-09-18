@@ -6,6 +6,7 @@
   --color-background: #f2f2f2;
 }
 
+/* Hero */
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -82,3 +83,48 @@ a {
 .hero section div p span {
   color: var(--color-secondary);
 }
+/* End of hero */
+
+.partners h2 {
+  text-align: center;
+}
+
+/* Partners */
+
+.partners-bg {
+  background-color: var(--color-light);
+  padding: 3rem 0;
+}
+
+.partners-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  margin: 2rem 0;
+}
+
+.partners-logo img {
+  width: 200px;
+}
+/* End of Partners */
+
+/* Siora */
+.siora {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  margin: 3rem auto;
+}
+
+.siora p {
+  margin: 1.5rem 0;
+}
+
+.siora figure {
+  width: 70rem;
+}
+/* End of Siora */
+
+
