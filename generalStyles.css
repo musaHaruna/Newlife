@@ -47,7 +47,7 @@ html {
 
 h1,
 h2 {
-  font-size: 40px;
+  font-size: 32px;
   color: var(--color-primary);
 }
 
@@ -56,9 +56,14 @@ h3 {
   color: var(--color-primary);
 }
 
+img {
+  display: block;
+  width: 100%;
+}
+
 p,
 a {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .latest-new-card div p {
@@ -78,7 +83,6 @@ a {
 }
 
 .container {
-  max-width: 1200px;
   width: 90%;
   margin: 0 auto;
 }

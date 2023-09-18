@@ -1,0 +1,84 @@
+:root {
+  --color-primary: #2a4d93;
+  --color-secondary: #937c2a;
+  --color-dark: #1e1e1e;
+  --color-light: #f2f7fd;
+  --color-background: #f2f2f2;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-nav ul {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+  padding: 2rem 0;
+}
+
+.login {
+  border-radius: 4px;
+  border: 1px solid var(--color-primary);
+  color: var(--color-primary);
+  padding: 0.5rem 1rem;
+}
+
+.get-started {
+  border-radius: 4px;
+  background: var(--color-primary);
+  color: #ffff;
+  padding: 0.5rem 1rem;
+}
+
+.hero {
+  margin: 4rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.hero figure {
+  width: 60rem;
+}
+
+.hero section div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.hero section div p,
+a {
+  font-size: 14px;
+}
+.hero section div a {
+  border-radius: 4px;
+  background: var(--color-secondary);
+  padding: 0.4rem 1rem;
+  color: #ffff;
+}
+
+.hero section h1 {
+  margin: 1rem 0;
+}
+
+.hero section h1 span {
+  color: var(--color-secondary);
+}
+
+.hero section p {
+  margin: 1rem 0;
+}
+
+.hero section div img {
+  width: 15%;
+}
+
+.hero section div p span {
+  color: var(--color-secondary);
+}
