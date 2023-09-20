@@ -9,11 +9,13 @@
 .contact-us {
   margin-top: 4rem;
   display: flex;
-  gap: 2rem;
+  justify-content: space-between;
+  gap: 1rem;
 }
 
 .contact-us form {
   width: 50%;
+  padding: 2rem 0;
 }
 
 .form div input {
@@ -70,6 +72,8 @@ h2.heading {
 
 .form div label {
   color: var(--color-primary);
+  display: block;
+  padding-bottom: 0.7rem;
 }
 
 .form div input {
