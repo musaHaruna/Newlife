@@ -17,24 +17,25 @@
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700;800;900&family=Rubik:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="generalStyles.css" />
-    <link rel="stylesheet" href="homeStyles.css" />
-    <link rel="stylesheet" href="research.css" />
+    <link rel="stylesheet" href="../css/generalStyles.css" />
+    <link rel="stylesheet" href="../css/contact.css" />
+    <link rel="stylesheet" href="../css/createAccount.css" />
   </head>
   <body>
     <article>
       <article class="research container">
-        <section>
+        <section class="create-account">
           <div>
-            <img src="Assets/Homepage/loginphoto.png" alt="" />
+            <img src="../Assets/Homepage/loginphoto.png" alt="" />
           </div>
-          <form>
-            <div>
-              <img src="Assets/Homepage/logo.png" alt="" />
+          <form class="form">
+            <div class="create-account-logos">
+              <div>
+                <img class="logo2" src="../Assets/Homepage/logo2.png" alt="" />
+              </div>
               <h4>NELIREF</h4>
             </div>
-            <h3>Login</h3>
-            <hr />
+            <h3 class="account-heading">Login</h3>
             <div>
               <label>Email/Username</label>
               <input type="text" placeholder="Email Username or Phone Number" />
@@ -42,14 +43,17 @@
             <div>
               <label>Password</label>
               <input type="password" />
-              <p>Forgot password?</p>
             </div>
 
-            <button>Login <i class="fa-solid fa-arrow-right"></i></button>
-            <button>
-              <i class="fa-brands fa-google"></i>Continue with Google
-            </button>
-            <p>Dont have an account? Get Started</p>
+            <div class="cta-btns">
+              <button class="blue">
+                Login<i class="fa-solid fa-arrow-right"></i>
+              </button>
+              <button class="transparent">
+                <i class="fa-brands fa-google"></i>Continue with Google
+              </button>
+              <a class="forget-password">Dont have an account? Get Started</a>
+            </div>
           </form>
         </section>
       </article>
