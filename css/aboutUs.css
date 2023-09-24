@@ -1,0 +1,44 @@
+.about-card {
+  margin-bottom: 1.5rem;
+  border-radius: 8px;
+}
+
+.about-card div {
+  padding: 2rem;
+  width: 20rem;
+  text-align: center;
+}
+
+.about-card figure {
+  width: 50px;
+  margin: 0 auto;
+  padding-top: 2rem;
+}
+
+.about-card.gray {
+  background-color: #f3f7ff;
+}
+.about-card.yellow {
+  background-color: #f6f0db;
+}
+
+.heading-paragraph {
+  text-align: center;
+}
+
+.about-us-AI {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.about-us-AI figure {
+  width: 60rem;
+}
+
+.AI-heading {
+  text-align: center;
+  margin-top: 4rem;
+}
