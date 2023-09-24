@@ -1,0 +1,64 @@
+.create-account {
+  display: flex;
+  width: 70%;
+  margin: 4rem auto;
+  justify-content: center;
+
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.create-account div img {
+  width: 280px;
+}
+
+.create-account-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+form {
+  width: 50%;
+}
+.create-account-logos img.logo2 {
+  width: 50px;
+}
+
+.account-heading {
+  margin: 1rem 0;
+  padding: 8px 0;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+
+.cta-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  justify-content: center;
+}
+
+.cta-btns button {
+  padding: 0.7rem;
+  border-radius: 4px;
+}
+
+.cta-btns button.blue {
+  background-color: #2a4d93;
+  color: #fff;
+}
+.cta-btns button.transparent {
+  background-color: #fff;
+  color: #2a4d93;
+  border: 1px solid #2a4d93;
+}
+
+.forget-password {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 10px;
+  text-decoration: underline;
+  color: #2a4d93;
+}

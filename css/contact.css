@@ -78,7 +78,8 @@ h2.heading {
 
 .form div input {
   border: 1px solid #b7b4b4;
-  padding: 0.5rem 0.4rem;
+  padding: 0.5rem 0;
+  padding-left: 3px;
   width: 100%;
   margin-bottom: 1.5rem;
 }
@@ -101,3 +102,4 @@ h2.heading {
 
   margin-top: 2rem;
 }
+
