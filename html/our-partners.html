@@ -17,46 +17,52 @@
       href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700;800;900&family=Rubik:ital,wght@1,300&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="generalStyles.css" />
-    <link rel="stylesheet" href="homeStyles.css" />
+    <link rel="stylesheet" href="../css/generalStyles.css" />
+    <link rel="stylesheet" href="../css/homeStyles.css" />
   </head>
   <body>
     <header>
       <nav class="header-nav container">
-        <div>
-          <img src="Assets/Homepage/logo.png" alt="logo" />
+        <a href="home.html">
+          <img src="../Assets/Homepage/logo.png" alt="logo" />
+        </a>
+
+        <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+
+        <div class="header-nav-links">
+          <ul>
+            <li><a href="">Home</a></li>
+            <li>
+              <a href="">About</a><i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li>
+              <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li>
+              <a href="research.html">Research</a
+              ><i class="fa-solid fa-chevron-down"></i>
+            </li>
+            <li><a href="">Donate</a></li>
+          </ul>
+          <ul>
+            <li><a href="" class="login">Login</a></li>
+            <li><a href="" class="get-started">Get Started</a></li>
+          </ul>
         </div>
-        <ul>
-          <li><a href="">Home</a></li>
-          <li><a href="">About</a><i class="fa-solid fa-chevron-down"></i></li>
-          <li>
-            <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
-          </li>
-          <li>
-            <a href="research.html">Research</a
-            ><i class="fa-solid fa-chevron-down"></i>
-          </li>
-          <li><a href="">Donate</a></li>
-        </ul>
-        <ul>
-          <li><a href="" class="login">Login</a></li>
-          <li><a href="" class="get-started">Get Started</a></li>
-        </ul>
       </nav>
     </header>
-
     <article class="partners-bg">
       <section class="container partners">
         <h2>Our Partners</h2>
         <div class="partners-logo">
-          <img src="Assets/Homepage/UPCI.png" alt="" />
-          <img src="Assets/Homepage/christianYouth SummitMakurdi.png" alt="" />
-          <img src="Assets/Homepage/CrawfordLab.png" alt="" />
+          <img src="../Assets/Homepage/UPCI.png" alt="" />
+          <img src="../Assets/Homepage/christianYouth SummitMakurdi.png" alt="" />
+          <img src="../Assets/Homepage/CrawfordLab.png" alt="" />
         </div>
         <div class="partners-logo">
-          <img src="Assets/Homepage/UPCI.png" alt="" />
-          <img src="Assets/Homepage/christianYouth SummitMakurdi.png" alt="" />
-          <img src="Assets/Homepage/CrawfordLab.png" alt="" />
+          <img src="../Assets/Homepage/UPCI.png" alt="" />
+          <img src="../Assets/Homepage/christianYouth SummitMakurdi.png" alt="" />
+          <img src="../Assets/Homepage/CrawfordLab.png" alt="" />
         </div>
       </section>
     </article>
@@ -64,7 +70,12 @@
     <footer>
       <nav class="footer-nav container">
         <div>
-          <figure><img src="Assets/Homepage/logo.png" alt="logo" /></figure>
+          <figure>
+            <a href="home.html"
+              ><img src="../Assets/Homepage/logo.png" alt="logo"
+            /></a>
+          </figure>
+
           <p>&copy; copyright 2023 NELIREF.</p>
           <p>All rights reserved</p>
           <div class="socials">
@@ -83,14 +94,16 @@
           <h4>Resource</h4>
           <li><a href="">Frequently Asked Questions</a></li>
           <li><a href="">Blog</a></li>
-          <li><a href="">Lastest news</a></li>
+          <li><a href="latest-news.html">Lastest news</a></li>
         </ul>
         <ul>
-          <h4>About Us</h4>
-          <li><a href="">Who We Are</a></li>
-          <li><a href="">Our Team</a></li>
-          <li><a href="">Our Partners</a></li>
-          <li><a href="">Contact Us</a></li>
+          <a href="about-us.html">
+            <h4>About Us</h4>
+          </a>
+          <li><a href="who-we-are.html">Who We Are</a></li>
+          <li><a href="our-team.html">Our Team</a></li>
+          <li><a href="our-partners.html">Our Partners</a></li>
+          <li><a href="contact-us.html">Contact Us</a></li>
         </ul>
         <ul>
           <h4>Location</h4>
