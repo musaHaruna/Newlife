@@ -7,32 +7,7 @@
 }
 
 /* Hero */
-.header-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-.header-nav ul {
-  display: flex;
-  gap: 1.5rem;
-  align-items: center;
-  padding: 2rem 0;
-}
-
-.login {
-  border-radius: 4px;
-  border: 1px solid var(--color-primary);
-  color: var(--color-primary);
-  padding: 0.5rem 1rem;
-}
-
-.get-started {
-  border-radius: 4px;
-  background: var(--color-primary);
-  color: #ffff;
-  padding: 0.5rem 1rem;
-}
 
 .hero {
   margin: 4rem auto;
@@ -326,4 +301,75 @@ p {
   background: var(--color-primary);
   overflow: hidden;
   border-radius: 50%;
+}
+@media (max-width: 419px) {
+  /* Your styles for screens less than 420px go here */
+  .header-nav div img {
+    padding: 1rem 0;
+  }
+  .header-nav-links {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+
+  .hero section h1 {
+    font-size: 26px;
+    text-align: center;
+  }
+
+  .hero figure {
+    width: 100%;
+  }
+
+  .partners-logo {
+    flex-direction: column;
+  }
+
+  .siora {
+    flex-direction: column;
+  }
+
+  .siora figure {
+    width: 100%;
+  }
+  .director {
+    flex-direction: column;
+  }
+
+  .director figure {
+    width: 100%;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact figure {
+    width: 100%;
+  }
+
+  .latest-news-card {
+    flex-direction: column;
+  }
+
+  .footer-nav {
+    flex-direction: column;
+  }
+
+  .hero section div {
+    justify-content: start;
+  }
+
+  .hero section div img {
+    display: none;
+  }
+
+  .hero section div p {
+    width: 40%;
+  }
+
+  /* Add more styles as needed */
 }
