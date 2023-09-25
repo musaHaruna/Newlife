@@ -148,7 +148,7 @@ a {
   color: var(--color-primary);
 }
 
-@media (max-width: 419px) {
+@media (max-width: 500px) {
   h2 {
     font-size: 24px;
   }

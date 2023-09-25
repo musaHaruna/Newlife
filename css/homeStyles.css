@@ -306,7 +306,7 @@ p {
   overflow: hidden;
   border-radius: 50%;
 }
-@media (max-width: 419px) {
+@media (max-width: 500px) {
   /* Your styles for screens less than 420px go here */
   .header-nav div img {
     padding: 1rem 0;

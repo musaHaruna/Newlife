@@ -103,12 +103,14 @@ h2.heading {
   margin-top: 2rem;
 }
 
-@media (max-width: 419px) {
+@media (max-width: 500px) {
   .support-us-img {
     display: none;
   }
 
   .contact-us {
+    flex-direction: column;
+
     margin-top: 2rem;
   }
 
