@@ -8,7 +8,6 @@
 
 /* Hero */
 
-
 .hero {
   margin: 4rem auto;
   display: flex;
@@ -289,6 +288,7 @@ p {
 
 .our-team p {
   font-size: 16px;
+  text-align: center;
 }
 
 .our-team h3 {
@@ -369,6 +369,10 @@ p {
 
   .hero section div p {
     width: 40%;
+  }
+
+  .our-team {
+    flex-direction: column;
   }
 
   /* Add more styles as needed */
