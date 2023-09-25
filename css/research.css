@@ -30,3 +30,14 @@
 .card div {
   padding: 1rem;
 }
+
+@media (max-width: 419px) {
+  .research h2 {
+    margin: 1.5rem 0;
+  }
+
+  .research-card {
+    flex-direction: column;
+    gap: 0;
+  }
+}

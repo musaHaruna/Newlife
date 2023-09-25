@@ -42,3 +42,33 @@
   text-align: center;
   margin-top: 4rem;
 }
+
+@media (max-width: 419px) {
+  .about-card {
+    width: 100%;
+  }
+
+  .about-card div {
+    padding: 0;
+    width: 16rem;
+    margin: 0.5rem auto;
+  }
+
+  .about-card div h3 {
+    text-align: center;
+    margin-top: 0.7rem;
+    font-size: 20px;
+  }
+
+  .about-card div p {
+    font-size: 14px;
+  }
+  .about-card figure {
+    width: 50px;
+    padding-top: 1rem;
+  }
+
+  .about-us-AI figure {
+    display: none;
+  }
+}
