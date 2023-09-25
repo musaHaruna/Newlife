@@ -375,5 +375,14 @@ p {
     flex-direction: column;
   }
 
+  .latest-news-content {
+    margin: 1.5rem auto;
+    width: 100%;
+  }
+
+  .latest-news-content p {
+    margin: 0 auto;
+    font-size: 14px;
+  }
   /* Add more styles as needed */
 }
