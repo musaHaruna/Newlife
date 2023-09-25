@@ -103,3 +103,16 @@ h2.heading {
   margin-top: 2rem;
 }
 
+@media (max-width: 419px) {
+  .support-us-img {
+    display: none;
+  }
+
+  .contact-us {
+    margin-top: 2rem;
+  }
+
+  .contact-us form {
+    width: 100%;
+  }
+}
