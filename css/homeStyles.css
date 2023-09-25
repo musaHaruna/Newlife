@@ -204,9 +204,13 @@ p {
 }
 
 .latest-news-buttons {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   gap: 1rem;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+
   margin-bottom: 2rem;
   margin-top: 4rem;
 }
@@ -383,6 +387,9 @@ p {
   .latest-news-content p {
     margin: 0 auto;
     font-size: 14px;
+  }
+  .latest-news-buttons {
+    grid-template-columns: 1fr 1fr;
   }
   /* Add more styles as needed */
 }
