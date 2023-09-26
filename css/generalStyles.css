@@ -32,6 +32,7 @@ li {
 /* Remove hyperlinks text decoration */
 a {
   text-decoration: none;
+  color: var(--color-primary);
 }
 
 /* Set default font and color */
@@ -88,6 +89,10 @@ a {
 }
 
 /* Navbar */
+.header-nav .mobile-nav {
+  display: none;
+}
+
 .header-nav {
   display: flex;
   justify-content: space-between;
@@ -176,5 +181,34 @@ a {
   .hamburger-icon i {
     font-size: 32px;
     color: var(--color-primary);
+  }
+
+  .header-nav .mobile-nav {
+    display: block;
+    width: 300px;
+    position: absolute;
+    border: 1px solid var(--color-primary);
+    background-color: #fff;
+    top: 30%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+  }
+
+  .header-nav .mobile-nav .header-nav-links {
+    flex-direction: column;
+  }
+
+  .header-nav .mobile-nav.hidden {
+    display: none;
+  }
+
+  .mobile-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+
+  .mobile-login-links {
+    justify-content: center;
   }
 }
