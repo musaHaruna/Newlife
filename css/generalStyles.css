@@ -162,7 +162,7 @@ a {
 
 .hero-bg {
   background: var(
-    #ffff,
+    #ffffff,
     linear-gradient(
       358deg,
       rgba(255, 255, 255, 0.2) 38.89%,
@@ -171,7 +171,16 @@ a {
     #fff
   );
 }
+.dropdown-content {
+  display: none;
+  transition: opacity 0.5s;
+  opacity: 0;
+}
 
+.show-link-dropdown {
+  display: block;
+  opacity: 1;
+}
 .contact-bg {
   background-color: var(--color-background);
 }

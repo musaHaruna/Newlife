@@ -18,3 +18,20 @@ login.addEventListener('click', () => {
 closeModal.addEventListener('click', () => {
   loginModal.classList.toggle('hide-modal')
 })
+
+const dropdownIcons = document.querySelectorAll('.drop-down')
+const dropdownContents = document.querySelectorAll('.dropdown-content')
+
+dropdownIcons.forEach((icon, index) => {
+  icon.addEventListener('click', () => {
+    // Close all dropdowns
+    dropdownContents.forEach((content, i) => {
+      if (i !== index) {
+        content.classList.remove('show-link-dropdown')
+      }
+    })
+
+    // Toggle the clicked dropdown
+    dropdownContents[index].classList.toggle('show-link-dropdown')
+  })
+})
