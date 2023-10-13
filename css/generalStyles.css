@@ -93,10 +93,40 @@ a {
   display: none;
 }
 
+.about-dropdown {
+  background-color: #fff;
+  position: absolute;
+  padding: 0.5rem;
+  top: 4.3rem;
+  left: 2rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.resource-dropdown {
+  background-color: #fff;
+  position: absolute;
+  padding: 0.5rem;
+  top: 4.3rem;
+  left: 10rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.research-dropdown {
+  background-color: #fff;
+  position: absolute;
+  padding: 0.5rem;
+  top: 4.3rem;
+  left: 16rem;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
 .header-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-nav-links li i {
+  margin-left: 5px;
+  margin-top: 10px;
 }
 
 .hamburger-icon {
@@ -106,6 +136,7 @@ a {
 .header-nav-links {
   display: flex;
   justify-content: space-between;
+  position: relative;
   gap: 1.5rem;
 }
 .header-nav ul {
@@ -148,8 +179,6 @@ a {
 .director-bg {
   background-color: var(--color-light);
 }
-
-
 
 .socials p i {
   color: var(--color-primary);
