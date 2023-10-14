@@ -1,299 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Newlife</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link rel="icon" type="image/x-icon" href="/Assets/Homepage/favicon.ico" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700;800;900&family=Rubik:ital,wght@1,300&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="../css/generalStyles.css" />
-    <link rel="stylesheet" href="../css/homeStyles.css" />
-    <link rel="stylesheet" href="../css/research.css" />
-    <link rel="stylesheet" href="../css/contact.css" />
-    <link rel="stylesheet" href="../css/createAccount.css" />
-    <script defer src="../js/app.js"></script>
-  </head>
-  <body>
-    <section id="login-modal" class="create-account hide-modal">
-      <div>
-        <img src="../Assets/Homepage/loginphoto.png" alt="" />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Newlife</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="icon" type="image/x-icon" href="/Assets/Homepage/favicon.ico" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@300;400;500;700;800;900&family=Rubik:ital,wght@1,300&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../css/generalStyles.css" />
+  <link rel="stylesheet" href="../css/homeStyles.css" />
+  <link rel="stylesheet" href="../css/research.css" />
+  <link rel="stylesheet" href="../css/contact.css" />
+  <link rel="stylesheet" href="../css/createAccount.css" />
+  <script defer src="../js/app.js"></script>
+</head>
+
+<body>
+  <section id="login-modal" class="create-account hide-modal">
+    <div>
+      <img src="../Assets/Homepage/loginphoto.png" alt="" />
+    </div>
+    <form class="form create-account-form">
+      <i id="cross" class="fa-solid fa-xmark"></i>
+      <div class="create-account-logos">
+        <div>
+          <img class="logo2" src="../Assets/Homepage/logo2.png" alt="" />
+        </div>
+        <h4>NELIREF</h4>
       </div>
-      <form class="form create-account-form">
-        <i id="cross" class="fa-solid fa-xmark"></i>
-        <div class="create-account-logos">
-          <div>
-            <img class="logo2" src="../Assets/Homepage/logo2.png" alt="" />
+      <h3 class="account-heading">Login</h3>
+      <div>
+        <label>Email/Username</label>
+        <input type="text" placeholder="Email Username or Phone Number" />
+      </div>
+      <div>
+        <label>Password</label>
+        <input type="password" />
+      </div>
+
+      <div class="cta-btns">
+        <button class="blue">
+          Login<i class="fa-solid fa-arrow-right"></i>
+        </button>
+        <button class="transparent">
+          <i class="fa-brands fa-google"></i>Continue with Google
+        </button>
+        <a class="forget-password">Dont have an account? Get Started</a>
+      </div>
+    </form>
+  </section>
+
+  <header>
+    <nav class="header-nav container">
+      <a class="site-logo" href="home.html">
+        <img src="../Assets/Homepage/logo.png" alt="logo" />
+      </a>
+
+      <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+
+      <div class="header-nav-links">
+        <ul>
+          <li><a href="">Home </a></li>
+          <li>
+            <a href="">About </a> <span></span> <i class="fa-solid fa-chevron-down drop-down"></i>
+          </li>
+          <div class="about-dropdown dropdown-content">
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">Our Partners</a></li>
           </div>
-          <h4>NELIREF</h4>
-        </div>
-        <h3 class="account-heading">Login</h3>
+          <li>
+            <a href="">Resources </a><i class="fa-solid fa-chevron-down drop-down"></i>
+          </li>
+          <div class="resource-dropdown dropdown-content">
+            <li><a href="#">Latest news</a></li>
+            <li><a href="#">FAQs</a></li>
+          </div>
+          <li>
+            <a href="research.html">Research</a><i class="fa-solid fa-chevron-down drop-down"></i>
+          </li>
+          <div class="research-dropdown dropdown-content">
+            <li><a href="#">Latests news</a></li>
+            <li><a href="#">FAQs</li>
+          </div>
+          <li><a href="">Donate</a></li>
+        </ul>
+        <ul>
+          <li id="login"><a href="#" class="login">Login</a></li>
+          <li><a href="" class="get-started">Get Started</a></li>
+        </ul>
+      </div>
+
+
+      <div id="menu" class="mobile-nav hidden header-nav-links">
+        <ul class="mobile-links">
+          <li><a href="home.html">Home</a></li>
+          <li>
+            <a href="about-us.html">About</a><i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li>
+            <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li>
+            <a href="research.html">Research</a><i class="fa-solid fa-chevron-down"></i>
+          </li>
+          <li><a href="support-us.html">Donate</a></li>
+        </ul>
+        <ul class="mobile-login-links">
+          <li id="login"><a href="#" class="login">Login</a></li>
+          <li><a href="" class="get-started">Get Started</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+
+  <article>
+    <article class="latest-news container">
+      <h2 class="latest-news-heading">The Mustard Seed ‘NELIREF’</h2>
+      <p class="heading-p">Revival Labor</p>
+      <section class="latest-news-content">
+        <figure>
+          <img src="../Assets/Homepage/student2.png" alt="" />
+        </figure>
+        <p>
+          <br />
+          New Life Research Foundation is a Vision that came in 2013 during
+          the protracted 6-month Academic Staff Union of Universities (ASUU)
+          strike. The Visioner (Joseph Luper Tsenum) spent the six-month
+          strike seeking the Lord to discover his purpose for living. It was
+          then that he read a book written by Bro. Gbile Akanni titled ‘The
+          Journey into Your Vision’. This brought insight to him and the
+          subsequent vision to form New Life Research to mobilize God’s
+          children into different nations for revival using academics,
+          research, and scholarships. It is worthy of note that this name New
+          Life Research was received in 2013 as well. <br />
+          <br />
+          New Life Research Foundation is for those who have this new life in
+          Christ whom the Lord will be using in different nations for revival
+          using academics and research. Jer. 1:1-19, 51:20-24 is the anchor
+          scripture for New Life Research Foundation as the Lord promised to
+          use anyone He wills to bring down revival in the nations. <br />
+          <br />
+
+          On October 23, 2017, the Lord came again speaking to our brother on
+          the need to start taking the ‘initiation step’ into the nations. He
+          created a page on Facebook on that day and called few brethren
+          together whom they prayed and started the work. While few people
+          believed in the Vision, some did not believe in it from the onset
+          (probably because it was a mustard seed and himself was not yet into
+          the nations he spoke to them about). In the same 2017, few members
+          he was working with got scholarships and traveled to Europe while he
+          was still in Nigeria. <br />
+          <br />
+
+          After applying for a scholarship in Europe in 2018 and securing it
+          in 2019, he traveled to Russia for his Masters program and by then,
+          more people believed in the Vision (The mustard seed NELIREF). New
+          Life Research Foundation was formally launched on November 22,
+          2019<br />
+          <br />
+          The mustard seed ‘NELIREF’ was incorporated in Nigeria as a
+          non-profit Christian Academic/Research organization on March 2, 2022
+          and in Georgia, United States on May 17, 2023. New Life Research
+          Foundation now has more than 15, 000 followers on social media
+          platforms (including its partners). Under this time, 100s of NELIREF
+          members secured scholarships in different nations and now set to
+          start its Pioneer Research Cohort, Symposiums and Annual Conference.
+          Both undergraduate and graduate scholarship applicants are mentored
+          to become what God wants to use them in the nations to achieve.
+          <br />
+          <br />
+
+          Together with her partners such as The United Pentecostal Church
+          (UPCI), Adullam Calvary Mission, Makurdi Christian Youth Summit,
+          Ngunan Addingi Mentorship Program, The Moscow Goodnews Church and
+          other research labs in North America, NELIREF is dedicated to
+          counseling and mentoring its members to become sharp arrows in God’s
+          quiver in the nations.  <br />
+          <br />
+
+          Indeed, the Lord can use anything, the mustard seed NELIREF is set
+          to becoming a big umbrella where both believers in Jesus and
+          unbelievers can come to drink from the living water and discover
+          their purpose for living. Our Vision, aims and objectives can be
+          gotten on our banner for more elaboration. <br />
+          <br />
+        </p>
+      </section>
+      <p class="other-news">Other News</p>
+      <section class="latest-news-card">
         <div>
-          <label>Email/Username</label>
-          <input type="text" placeholder="Email Username or Phone Number" />
-        </div>
-        <div>
-          <label>Password</label>
-          <input type="password" />
-        </div>
-
-        <div class="cta-btns">
-          <button class="blue">
-            Login<i class="fa-solid fa-arrow-right"></i>
-          </button>
-          <button class="transparent">
-            <i class="fa-brands fa-google"></i>Continue with Google
-          </button>
-          <a class="forget-password">Dont have an account? Get Started</a>
-        </div>
-      </form>
-    </section>
-
-    <header>
-      <nav class="header-nav container">
-        <a href="home.html">
-          <img src="../Assets/Homepage/logo.png" alt="logo" />
-        </a>
-
-        <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
-
-        <div class="header-nav-links">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li>
-              <a href="">About</a><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="research.html">Research</a
-              ><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li><a href="">Donate</a></li>
-          </ul>
-          <ul>
-            <li id="login"><a href="#" class="login">Login</a></li>
-            <li><a href="" class="get-started">Get Started</a></li>
-          </ul>
-        </div>
-
-        <div id="menu" class="mobile-nav hidden header-nav-links">
-          <ul class="mobile-links">
-            <li><a href="home.html">Home</a></li>
-            <li>
-              <a href="about-us.html">About</a
-              ><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="research.html">Research</a
-              ><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li><a href="support-us.html">Donate</a></li>
-          </ul>
-          <ul class="mobile-login-links">
-            <li id="login"><a href="#" class="login">Login</a></li>
-            <li><a href="" class="get-started">Get Started</a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
-
-    <article>
-      <article class="latest-news container">
-        <h2 class="latest-news-heading">The Mustard Seed ‘NELIREF’</h2>
-        <p class="heading-p">Revival Labor</p>
-        <section class="latest-news-content">
           <figure>
-            <img src="../Assets/Homepage/student2.png" alt="" />
+            <img src="../Assets/Homepage/student.png" alt="student" />
           </figure>
+          <h3>
+            5 top universities to offer fully funded genomics scholarships to
+            African students.
+          </h3>
           <p>
-            <br />
-            New Life Research Foundation is a Vision that came in 2013 during
-            the protracted 6-month Academic Staff Union of Universities (ASUU)
-            strike. The Visioner (Joseph Luper Tsenum) spent the six-month
-            strike seeking the Lord to discover his purpose for living. It was
-            then that he read a book written by Bro. Gbile Akanni titled ‘The
-            Journey into Your Vision’. This brought insight to him and the
-            subsequent vision to form New Life Research to mobilize God’s
-            children into different nations for revival using academics,
-            research, and scholarships. It is worthy of note that this name New
-            Life Research was received in 2013 as well. <br />
-            <br />
-            New Life Research Foundation is for those who have this new life in
-            Christ whom the Lord will be using in different nations for revival
-            using academics and research. Jer. 1:1-19, 51:20-24 is the anchor
-            scripture for New Life Research Foundation as the Lord promised to
-            use anyone He wills to bring down revival in the nations. <br />
-            <br />
-
-            On October 23, 2017, the Lord came again speaking to our brother on
-            the need to start taking the ‘initiation step’ into the nations. He
-            created a page on Facebook on that day and called few brethren
-            together whom they prayed and started the work. While few people
-            believed in the Vision, some did not believe in it from the onset
-            (probably because it was a mustard seed and himself was not yet into
-            the nations he spoke to them about). In the same 2017, few members
-            he was working with got scholarships and traveled to Europe while he
-            was still in Nigeria. <br />
-            <br />
-
-            After applying for a scholarship in Europe in 2018 and securing it
-            in 2019, he traveled to Russia for his Masters program and by then,
-            more people believed in the Vision (The mustard seed NELIREF). New
-            Life Research Foundation was formally launched on November 22,
-            2019<br />
-            <br />
-            The mustard seed ‘NELIREF’ was incorporated in Nigeria as a
-            non-profit Christian Academic/Research organization on March 2, 2022
-            and in Georgia, United States on May 17, 2023. New Life Research
-            Foundation now has more than 15, 000 followers on social media
-            platforms (including its partners). Under this time, 100s of NELIREF
-            members secured scholarships in different nations and now set to
-            start its Pioneer Research Cohort, Symposiums and Annual Conference.
-            Both undergraduate and graduate scholarship applicants are mentored
-            to become what God wants to use them in the nations to achieve.
-            <br />
-            <br />
-
-            Together with her partners such as The United Pentecostal Church
-            (UPCI), Adullam Calvary Mission, Makurdi Christian Youth Summit,
-            Ngunan Addingi Mentorship Program, The Moscow Goodnews Church and
-            other research labs in North America, NELIREF is dedicated to
-            counseling and mentoring its members to become sharp arrows in God’s
-            quiver in the nations.  <br />
-            <br />
-
-            Indeed, the Lord can use anything, the mustard seed NELIREF is set
-            to becoming a big umbrella where both believers in Jesus and
-            unbelievers can come to drink from the living water and discover
-            their purpose for living. Our Vision, aims and objectives can be
-            gotten on our banner for more elaboration. <br />
-            <br />
+            5 top universities to offer fully funded genomics scholarships to
+            African students.5 top universities to offer fully funded genomics
+            scholarships to African students.5 top universities to offer fully
+            funded genomics scholarships to African s...
           </p>
-        </section>
-        <p class="other-news">Other News</p>
-        <section class="latest-news-card">
-          <div>
-            <figure>
-              <img src="../Assets/Homepage/student.png" alt="student" />
-            </figure>
-            <h3>
-              5 top universities to offer fully funded genomics scholarships to
-              African students.
-            </h3>
-            <p>
-              5 top universities to offer fully funded genomics scholarships to
-              African students.5 top universities to offer fully funded genomics
-              scholarships to African students.5 top universities to offer fully
-              funded genomics scholarships to African s...
-            </p>
-            <li><a href="">Read more</a></li>
-          </div>
-          <div>
-            <figure>
-              <img src="../Assets/Homepage/student.png" alt="student" />
-            </figure>
-            <h3>
-              5 top universities to offer fully funded genomics scholarships to
-              African students.
-            </h3>
-            <p>
-              5 top universities to offer fully funded genomics scholarships to
-              African students.5 top universities to offer fully funded genomics
-              scholarships to African students.5 top universities to offer fully
-              funded genomics scholarships to African s...
-            </p>
-            <li><a href="">Read more</a></li>
-          </div>
-          <div>
-            <figure>
-              <img src="../Assets/Homepage/student.png" alt="student" />
-            </figure>
-            <h3>
-              5 top universities to offer fully funded genomics scholarships to
-              African students.
-            </h3>
-            <p>
-              5 top universities to offer fully funded genomics scholarships to
-              African students.5 top universities to offer fully funded genomics
-              scholarships to African students.5 top universities to offer fully
-              funded genomics scholarships to African s...
-            </p>
-            <li><a href="">Read more</a></li>
-          </div>
-        </section>
-      </article>
+          <li><a href="">Read more</a></li>
+        </div>
+        <div>
+          <figure>
+            <img src="../Assets/Homepage/student.png" alt="student" />
+          </figure>
+          <h3>
+            5 top universities to offer fully funded genomics scholarships to
+            African students.
+          </h3>
+          <p>
+            5 top universities to offer fully funded genomics scholarships to
+            African students.5 top universities to offer fully funded genomics
+            scholarships to African students.5 top universities to offer fully
+            funded genomics scholarships to African s...
+          </p>
+          <li><a href="">Read more</a></li>
+        </div>
+        <div>
+          <figure>
+            <img src="../Assets/Homepage/student.png" alt="student" />
+          </figure>
+          <h3>
+            5 top universities to offer fully funded genomics scholarships to
+            African students.
+          </h3>
+          <p>
+            5 top universities to offer fully funded genomics scholarships to
+            African students.5 top universities to offer fully funded genomics
+            scholarships to African students.5 top universities to offer fully
+            funded genomics scholarships to African s...
+          </p>
+          <li><a href="">Read more</a></li>
+        </div>
+      </section>
     </article>
+  </article>
 
-    <footer>
-      <nav class="footer-nav container">
-        <div>
-          <figure>
-            <a href="home.html"
-              ><img src="../Assets/Homepage/logo.png" alt="logo"
-            /></a>
-          </figure>
+  <footer>
+    <nav class="footer-nav container">
+      <div>
+        <figure>
+          <a href="home.html"><img src="../Assets/Homepage/logo.png" alt="logo" /></a>
+        </figure>
 
-          <p>&copy; copyright 2023 NELIREF.</p>
-          <p>All rights reserved</p>
-          <div class="socials">
-            <p><i class="fa-brands fa-instagram"></i></p>
-            <p><i class="fa-brands fa-facebook"></i></p>
-            <p><i class="fa-brands fa-twitter"></i></p>
-            <p><i class="fa-brands fa-linkedin"></i></p>
-          </div>
+        <p>&copy; copyright 2023 NELIREF.</p>
+        <p>All rights reserved</p>
+        <div class="socials">
+          <p><i class="fa-brands fa-instagram"></i></p>
+          <p><i class="fa-brands fa-facebook"></i></p>
+          <p><i class="fa-brands fa-twitter"></i></p>
+          <p><i class="fa-brands fa-linkedin"></i></p>
         </div>
-        <ul>
-          <h4>Legal</h4>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="">Code of Conduct</a></li>
-        </ul>
-        <ul>
-          <h4>Resource</h4>
-          <li><a href="">Frequently Asked Questions</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="latest-news.html">Lastest news</a></li>
-        </ul>
-        <ul>
-          <a href="about-us.html">
-            <h4>About Us</h4>
-          </a>
-          <li><a href="who-we-are.html">Who We Are</a></li>
-          <li><a href="our-team.html">Our Team</a></li>
-          <li><a href="our-partners.html">Our Partners</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-        <ul>
-          <h4>Location</h4>
-          <p>
-            Adullam Calvary Mission Centre, <br />
-            Opposite Vaatia College Junction <br />
-            Off George Akume Way Makurdi, <br />
-            Benue 970101, Nigeria
-          </p>
-          <p>
-            Engineered Biosystems Building (EBB) <br />
-            Georgia Institute of Technology <br />
-            950 Atlantic Drive Atlanta, GA 30332, <br />
-            United States
-          </p>
-        </ul>
-      </nav>
-    </footer>
-  </body>
+      </div>
+      <ul>
+        <h4>Legal</h4>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="privacy.html">Code of Conduct</a></li>
+      </ul>
+      <ul>
+        <h4>Resource</h4>
+        <li><a href="">Frequently Asked Questions</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="latest-news.html">Lastest news</a></li>
+      </ul>
+      <ul>
+
+        <h4>About Us</h4>
+
+        <li><a href="about-us.html">Who We Are</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="our-partners.html">Our Partners</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+      <ul>
+        <h4>Location</h4>
+        <p>
+          Adullam Calvary Mission Centre, <br />
+          Opposite Vaatia College Junction <br />
+          Off George Akume Way Makurdi, <br />
+          Benue 970101, Nigeria
+        </p>
+        <p>
+          Engineered Biosystems Building (EBB) <br />
+          Georgia Institute of Technology <br />
+          950 Atlantic Drive Atlanta, GA 30332, <br />
+          United States
+        </p>
+      </ul>
+    </nav>
+  </footer>
+</body>
+
 </html>

@@ -29,7 +29,7 @@
 
 .hero section div p,
 a {
-  font-size: 14px;
+  font-size: 20px;
 }
 .hero section div a {
   border-radius: 4px;
@@ -169,13 +169,16 @@ a {
   margin-bottom: 7rem;
 }
 .latest-news-card {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: 2rem 0;
   gap: 2rem;
+  place-items: center;
 }
 
 .latest-news-card h3 {
   font-size: 20px;
+  text-align: left;
 }
 
 .latest-news-card h3,
@@ -356,7 +359,7 @@ p {
   }
 
   .latest-news-card {
-    flex-direction: column;
+    grid-template-columns: 1fr;
   }
 
   .footer-nav {

@@ -59,58 +59,70 @@
       </form>
     </section>
 
-    <header>
-      <nav class="header-nav container">
-        <a href="home.html">
-          <img src="../Assets/Homepage/logo.png" alt="logo" />
-        </a>
+<header>
+  <nav class="header-nav container">
+    <a class="site-logo" href="home.html">
+      <img src="../Assets/Homepage/logo.png" alt="logo" />
+    </a>
 
-        <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
+    <div class="hamburger-icon"><i class="fa-solid fa-bars"></i></div>
 
-        <div class="header-nav-links">
-          <ul>
-            <li><a href="">Home</a></li>
-            <li>
-              <a href="">About</a><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="research.html">Research</a
-              ><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li><a href="">Donate</a></li>
-          </ul>
-          <ul>
-            <li id="login"><a href="#" class="login">Login</a></li>
-            <li><a href="" class="get-started">Get Started</a></li>
-          </ul>
+    <div class="header-nav-links">
+      <ul>
+        <li><a href="">Home </a></li>
+        <li>
+          <a href="">About </a> <span></span> <i class="fa-solid fa-chevron-down drop-down"></i>
+        </li>
+        <div class="about-dropdown dropdown-content">
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Our team</a></li>
+          <li><a href="#">Our Partners</a></li>
         </div>
-
-        <div id="menu" class="mobile-nav hidden header-nav-links">
-          <ul class="mobile-links">
-            <li><a href="home.html">Home</a></li>
-            <li>
-              <a href="about-us.html">About</a
-              ><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li>
-              <a href="research.html">Research</a
-              ><i class="fa-solid fa-chevron-down"></i>
-            </li>
-            <li><a href="support-us.html">Donate</a></li>
-          </ul>
-          <ul class="mobile-login-links">
-            <li id="login"><a href="#" class="login">Login</a></li>
-            <li><a href="" class="get-started">Get Started</a></li>
-          </ul>
+        <li>
+          <a href="">Resources </a><i class="fa-solid fa-chevron-down drop-down"></i>
+        </li>
+        <div class="resource-dropdown dropdown-content">
+          <li><a href="#">Latest news</a></li>
+          <li><a href="#">FAQs</a></li>
         </div>
-      </nav>
-    </header>
+        <li>
+          <a href="research.html">Research</a><i class="fa-solid fa-chevron-down drop-down"></i>
+        </li>
+        <div class="research-dropdown dropdown-content">
+          <li><a href="#">Latests news</a></li>
+          <li><a href="#">FAQs</li>
+        </div>
+        <li><a href="">Donate</a></li>
+      </ul>
+      <ul>
+        <li id="login"><a href="#" class="login">Login</a></li>
+        <li><a href="" class="get-started">Get Started</a></li>
+      </ul>
+    </div>
+
+
+    <div id="menu" class="mobile-nav hidden header-nav-links">
+      <ul class="mobile-links">
+        <li><a href="home.html">Home</a></li>
+        <li>
+          <a href="about-us.html">About</a><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          <a href="">Resources</a><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li>
+          <a href="research.html">Research</a><i class="fa-solid fa-chevron-down"></i>
+        </li>
+        <li><a href="support-us.html">Donate</a></li>
+      </ul>
+      <ul class="mobile-login-links">
+        <li id="login"><a href="#" class="login">Login</a></li>
+        <li><a href="" class="get-started">Get Started</a></li>
+      </ul>
+    </div>
+  </nav>
+</header>
+
     <article>
       <article class="latest-news container">
         <h2 class="latest-news-heading">Our Team</h2>
@@ -180,59 +192,58 @@
       </article>
     </article>
 
-    <footer>
-      <nav class="footer-nav container">
-        <div>
-          <figure>
-            <a href="home.html"
-              ><img src="../Assets/Homepage/logo.png" alt="logo"
-            /></a>
-          </figure>
-          <p>&copy; copyright 2023 NELIREF.</p>
-          <p>All rights reserved</p>
-          <div class="socials">
-            <p><i class="fa-brands fa-instagram"></i></p>
-            <p><i class="fa-brands fa-facebook"></i></p>
-            <p><i class="fa-brands fa-twitter"></i></p>
-            <p><i class="fa-brands fa-linkedin"></i></p>
-          </div>
+  <footer>
+    <nav class="footer-nav container">
+      <div>
+        <figure>
+          <a href="home.html"><img src="../Assets/Homepage/logo.png" alt="logo" /></a>
+        </figure>
+  
+        <p>&copy; copyright 2023 NELIREF.</p>
+        <p>All rights reserved</p>
+        <div class="socials">
+          <p><i class="fa-brands fa-instagram"></i></p>
+          <p><i class="fa-brands fa-facebook"></i></p>
+          <p><i class="fa-brands fa-twitter"></i></p>
+          <p><i class="fa-brands fa-linkedin"></i></p>
         </div>
-        <ul>
-          <h4>Legal</h4>
-          <li><a href="privacy.html">Privacy Policy</a></li>
-          <li><a href="">Code of Conduct</a></li>
-        </ul>
-        <ul>
-          <h4>Resource</h4>
-          <li><a href="">Frequently Asked Questions</a></li>
-          <li><a href="">Blog</a></li>
-          <li><a href="latest-news.html">Lastest news</a></li>
-        </ul>
-        <ul>
-          <a href="about-us.html">
-            <h4>About Us</h4>
-          </a>
-          <li><a href="who-we-are.html">Who We Are</a></li>
-          <li><a href="our-team.html">Our Team</a></li>
-          <li><a href="our-partners.html">Our Partners</a></li>
-          <li><a href="contact-us.html">Contact Us</a></li>
-        </ul>
-        <ul>
-          <h4>Location</h4>
-          <p>
-            Adullam Calvary Mission Centre, <br />
-            Opposite Vaatia College Junction <br />
-            Off George Akume Way Makurdi, <br />
-            Benue 970101, Nigeria
-          </p>
-          <p>
-            Engineered Biosystems Building (EBB) <br />
-            Georgia Institute of Technology <br />
-            950 Atlantic Drive Atlanta, GA 30332, <br />
-            United States
-          </p>
-        </ul>
-      </nav>
-    </footer>
+      </div>
+      <ul>
+        <h4>Legal</h4>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="privacy.html">Code of Conduct</a></li>
+      </ul>
+      <ul>
+        <h4>Resource</h4>
+        <li><a href="">Frequently Asked Questions</a></li>
+        <li><a href="">Blog</a></li>
+        <li><a href="latest-news.html">Lastest news</a></li>
+      </ul>
+      <ul>
+  
+        <h4>About Us</h4>
+  
+        <li><a href="about-us.html">Who We Are</a></li>
+        <li><a href="our-team.html">Our Team</a></li>
+        <li><a href="our-partners.html">Our Partners</a></li>
+        <li><a href="contact-us.html">Contact Us</a></li>
+      </ul>
+      <ul>
+        <h4>Location</h4>
+        <p>
+          Adullam Calvary Mission Centre, <br />
+          Opposite Vaatia College Junction <br />
+          Off George Akume Way Makurdi, <br />
+          Benue 970101, Nigeria
+        </p>
+        <p>
+          Engineered Biosystems Building (EBB) <br />
+          Georgia Institute of Technology <br />
+          950 Atlantic Drive Atlanta, GA 30332, <br />
+          United States
+        </p>
+      </ul>
+    </nav>
+  </footer>
   </body>
 </html>

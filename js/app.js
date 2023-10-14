@@ -35,3 +35,14 @@ dropdownIcons.forEach((icon, index) => {
     dropdownContents[index].classList.toggle('show-link-dropdown')
   })
 })
+
+const navbar = document.querySelector('header')
+const threshold = 300 // Threshold when the navbar becomes sticky (in pixels)
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY >= threshold) {
+    navbar.classList.add('sticky')
+  } else {
+    navbar.classList.remove('sticky')
+  }
+})
