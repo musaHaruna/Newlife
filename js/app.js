@@ -46,3 +46,30 @@ window.addEventListener('scroll', () => {
     navbar.classList.remove('sticky')
   }
 })
+
+const accordions = document.querySelectorAll('.accordion')
+
+let activeParagraph = null
+
+function toggleParagraph(event) {
+  const paragraph = event.target.nextElementSibling
+
+  if (paragraph === activeParagraph) {
+    // If it's the active paragraph, close it
+    paragraph.classList.remove('accordion-active')
+    activeParagraph = null
+  } else {
+    // Close the currently active paragraph (if any)
+    if (activeParagraph) {
+      activeParagraph.classList.remove('accordion-active')
+    }
+
+    // Open the clicked paragraph
+    paragraph.classList.add('accordion-active')
+    activeParagraph = paragraph
+  }
+}
+
+accordions.forEach((accordion) => {
+  accordion.addEventListener('click', toggleParagraph)
+})

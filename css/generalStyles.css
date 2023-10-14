@@ -78,7 +78,6 @@ p {
 header {
   height: 6rem;
   background-color: #ffffff;
-
 }
 
 .latest-news-card div li a.see-more {
@@ -189,6 +188,21 @@ header {
   padding: 0.5rem 1rem;
 }
 
+.accordion {
+  margin: 1rem 0;
+  font-weight: 300;
+  font-size: 20px;
+  text-align: left;
+  cursor: pointer;
+}
+
+.accordion-hidden {
+  display: none;
+}
+
+.accordion-active {
+  display: block;
+}
 .hero-bg {
   background: var(
     #ffffff,
@@ -235,9 +249,8 @@ header {
   h1 {
     font-size: 26px;
   }
-
   .header-nav a img {
-    padding: 1rem 0;
+    width: 55px;
   }
   .header-nav-links {
     display: none;
@@ -258,8 +271,8 @@ header {
     position: absolute;
     border: 1px solid var(--color-primary);
     background-color: #fff;
-    top: 18rem;
-    left: 18rem;
+    top: 16rem;
+    left: 12rem;
     transform: translate(-50%, -50%);
   }
 
@@ -269,6 +282,10 @@ header {
 
   .header-nav .mobile-nav.hidden {
     display: none;
+  }
+
+  header {
+    height: 5rem;
   }
 
   .mobile-links {

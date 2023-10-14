@@ -54,6 +54,11 @@ a {
   width: 15%;
 }
 
+.hero section div p,
+a {
+  font-size: 14px;
+}
+
 .hero section div p span {
   color: var(--color-secondary);
 }
@@ -161,7 +166,7 @@ a {
 /* latest news */
 
 .latest-news {
-  margin: 3rem auto;
+  margin: 4rem auto;
 }
 
 .latest-news h2 {
