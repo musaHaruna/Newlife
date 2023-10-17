@@ -17,22 +17,21 @@
 }
 
 .hero figure {
-  width: 60rem;
+  width: 845px;
 }
 
 .hero section div {
   display: flex;
   align-items: center;
-  justify-content: space-between;
   gap: 1rem;
 }
 
-.hero section div p,
-a {
-  font-size: 20px;
+.hero section div p {
+  font-size: 16px;
 }
 .hero section div a {
   border-radius: 4px;
+  font-size: 20px;
   background: var(--color-secondary);
   padding: 0.4rem 1rem;
   color: #ffff;
@@ -40,8 +39,13 @@ a {
 
 .hero section h1 {
   margin: 1rem 0;
+  position: relative;
 }
 
+.hero section h1 img {
+  width: 30%;
+  margin: 0 auto;
+}
 .hero section h1 span {
   color: var(--color-secondary);
 }
@@ -52,11 +56,6 @@ a {
 
 .hero section div img {
   width: 15%;
-}
-
-.hero section div p,
-a {
-  font-size: 14px;
 }
 
 .hero section div p span {
@@ -332,9 +331,20 @@ p {
     font-size: 26px;
     text-align: center;
   }
-
+  .hero section h1 img {
+    display: none;
+  }
   .hero figure {
     width: 100%;
+  }
+
+  .hero section div p,
+  a {
+    font-size: 14px;
+  }
+
+  .hero section div a {
+    font-size: 14px;
   }
 
   .partners-logo {

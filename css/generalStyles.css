@@ -108,6 +108,7 @@ header {
 }
 
 .container {
+  max-width: 1440px;
   width: 90%;
   margin: 0 auto;
 }
@@ -215,15 +216,17 @@ header {
   );
 }
 .dropdown-content {
-  display: none;
-  transition: opacity 0.5s;
+  display: block;
+  transition: opacity 0.5s, transform 0.5s;
   opacity: 0;
+  transform: translateY(-10px);
 }
 
 .show-link-dropdown {
-  display: block;
   opacity: 1;
+  transform: translateY(0);
 }
+
 .contact-bg {
   background-color: var(--color-background);
 }
@@ -246,6 +249,11 @@ header {
     text-align: center;
   }
 
+  p,
+  a {
+    font-size: 16px;
+  }
+
   h1 {
     font-size: 26px;
   }
@@ -261,29 +269,41 @@ header {
   }
 
   .hamburger-icon i {
+    position: relative;
+    z-index: 6;
     font-size: 32px;
     color: var(--color-primary);
   }
-
   .header-nav .mobile-nav {
     display: block;
     width: 300px;
     position: absolute;
     border: 1px solid var(--color-primary);
     background-color: #fff;
-    top: 16rem;
-    left: 12rem;
+    top: 4rem;
+    left: 12.5rem;
     transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s, transform 0.5s;
+    z-index: 2;
   }
 
-  .header-nav .mobile-nav .header-nav-links {
-    flex-direction: column;
+  .header-nav .mobile-nav.active {
+    opacity: 1;
+    transform: translate(-50%, 0);
   }
 
   .header-nav .mobile-nav.hidden {
     display: none;
   }
 
+  .header-nav .mobile-nav .header-nav-links {
+    flex-direction: column;
+  }
+
+  #menu {
+    display: block;
+  }
   header {
     height: 5rem;
   }
