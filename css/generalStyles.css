@@ -311,6 +311,9 @@ header {
     justify-content: start;
   }
 
+  header {
+    height: 6rem;
+  }
   .mobile-login-links {
     justify-content: center;
   }
@@ -382,7 +385,7 @@ header {
     display: block;
   }
   header {
-    height: 5rem;
+    height: 7rem;
   }
 
   .mobile-links {
