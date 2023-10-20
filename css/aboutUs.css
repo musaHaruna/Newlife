@@ -43,7 +43,7 @@
   margin-top: 4rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .about-card {
     width: 100%;
   }

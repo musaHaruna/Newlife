@@ -103,7 +103,7 @@ h2.heading {
   margin-top: 2rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .support-us-img {
     display: none;
   }

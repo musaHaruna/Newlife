@@ -313,6 +313,47 @@ p {
   overflow: hidden;
   border-radius: 50%;
 }
+
+@media (max-width: 1020px) {
+  h1 {
+    text-align: center;
+  }
+  .hero {
+    flex-direction: column;
+    margin: 2rem auto;
+  }
+  .latest-news-card {
+    grid-template-columns: 1fr;
+  }
+  .footer-nav {
+    flex-direction: column;
+  }
+
+  .siora {
+    flex-direction: column;
+  }
+
+  .siora figure {
+    width: 70%;
+    margin: 2rem 0;
+  }
+  .director {
+    flex-direction: column;
+  }
+
+  .director figure {
+    width: 70%;
+    margin: 2rem 0;
+  }
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact figure {
+    width: 70%;
+    margin: 2rem 0;
+  }
+}
 @media (max-width: 500px) {
   /* Your styles for screens less than 420px go here */
   .header-nav div img {

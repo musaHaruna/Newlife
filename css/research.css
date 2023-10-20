@@ -31,7 +31,7 @@
   padding: 1rem;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 1024px) {
   .research h2 {
     margin: 1.5rem 0;
   }
