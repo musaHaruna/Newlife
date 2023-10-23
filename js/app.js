@@ -37,7 +37,7 @@ dropdownIcons.forEach((icon, index) => {
 })
 
 const navbar = document.querySelector('header')
-const threshold = 300 // Threshold when the navbar becomes sticky (in pixels)
+const threshold = 100 // Threshold when the navbar becomes sticky (in pixels)
 
 window.addEventListener('scroll', () => {
   if (window.scrollY >= threshold) {

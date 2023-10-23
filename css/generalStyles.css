@@ -1,4 +1,5 @@
 /* Box sizing reset to border-box for all elements */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Lexend+Deca:wght@300;400;500;600&family=Open+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;700;800;900&family=Poppins:wght@200&family=Roboto:wght@500&family=Rubik:ital,wght@1,300&display=swap');
 
 :root {
   --color-primary: #2a4d93;
@@ -11,6 +12,7 @@
 html {
   box-sizing: border-box;
   color: var(--color-dark);
+  font-family: 'Open Sans', sans-serif;
 }
 *,
 *:before,
@@ -37,8 +39,9 @@ a {
 
 /* Set default font and color */
 body {
-  font-family: 'Open Sans', sans-serif;
-  color: #000; /* Default text color */
+  font-family: 'Poppins', sans-serif;
+  color: #000;
+  /* Default text color */
 }
 
 /* Set a base font size for easier rem units */
@@ -46,14 +49,28 @@ html {
   font-size: 16px;
 }
 
+input:focus {
+  outline: var(--color-primary);
+}
+
+.material-symbols-outlined {
+  font-weight: 200;
+  font-size: 30px;
+  cursor: pointer;
+}
+
 h1,
 h2 {
-  font-size: 38px;
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.3;
   color: var(--color-primary);
 }
 
 h3 {
   font-size: 24px;
+  line-height: 1.5;
+  font-weight: 500;
   color: var(--color-primary);
 }
 
@@ -64,7 +81,9 @@ img {
 
 p,
 a {
-  font-size: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
 }
 
 p {
@@ -72,7 +91,8 @@ p {
 }
 
 .latest-news-card div p {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 header {
@@ -93,18 +113,30 @@ header {
 }
 .header-nav ul li {
   color: var(--color-primary);
+  display: flex;
+  align-items: center;
 }
 
 .footer-nav ul li a {
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.fa {
+  font-weight: 200;
 }
 
 .footer-nav div p {
-  font-size: 16px;
+  font-size: 14px;
+  margin: 0.2rem 0;
+}
+
+.footer-nav ul h4 {
+  color: #1e1e1e;
+  font-weight: 500;
 }
 
 .footer-nav ul p {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .container {
@@ -122,6 +154,7 @@ header {
   background-color: #fff;
   position: absolute;
   padding: 0.5rem;
+
   top: 4.3rem;
   left: 2rem;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
@@ -147,10 +180,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-.header-nav-links li i {
-  margin-left: 5px;
 }
 
 .hamburger-icon {
