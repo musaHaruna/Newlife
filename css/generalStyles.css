@@ -251,6 +251,17 @@ header {
   transform: translateY(-10px);
 }
 
+.our-team .bottom.left {
+  justify-content: left;
+}
+
+.our-team .bottom.left h3 {
+  text-align: left;
+}
+.our-team .bottom.left p {
+  width: 50%;
+}
+
 .dropdown-content li {
   margin: 0.5rem 0;
 }
@@ -373,6 +384,10 @@ header {
     display: none;
   }
 
+  .our-team .bottom {
+    flex-direction: column;
+  }
+
   .hamburger-icon {
     display: block;
   }
@@ -414,7 +429,7 @@ header {
     display: block;
   }
   header {
-    height: 7rem;
+    height: 4rem;
   }
 
   .mobile-links {

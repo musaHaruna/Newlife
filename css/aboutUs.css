@@ -38,9 +38,24 @@
   width: 60rem;
 }
 
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+}
+
 .AI-heading {
   text-align: center;
   margin-top: 4rem;
+}
+
+@media (max-width: 600px) {
+  .about-us-img {
+    display: none;
+  }
+
+  .about-us-content {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1024px) {

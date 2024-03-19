@@ -73,3 +73,13 @@ function toggleParagraph(event) {
 accordions.forEach((accordion) => {
   accordion.addEventListener('click', toggleParagraph)
 })
+document.getElementById('seeMore').addEventListener('click', function () {
+  var hiddenContent = document.getElementById('hiddenContent')
+  if (hiddenContent.style.display === 'none') {
+    hiddenContent.style.display = 'block'
+    document.getElementById('seeMore').textContent = 'See less'
+  } else {
+    hiddenContent.style.display = 'none'
+    document.getElementById('seeMore').textContent = 'See more'
+  }
+})
