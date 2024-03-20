@@ -17,8 +17,37 @@
   height: 70vh;
 }
 
+.our-team .buttom div h3 {
+  text-align: left;
+}
+
+#font-sm {
+  font-size: 18px;
+}
+
+#partner-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 2rem auto;
+}
+
+#flex-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 1.5rem auto;
+}
 .hero figure {
   width: 845px;
+}
+
+#text-left {
+  text-align: left;
+}
+
+.our-team .buttom div #text-left {
+  text-align: left;
 }
 
 .hero section div {
@@ -213,6 +242,15 @@
   color: #fff;
 }
 
+#top {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+#bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 /* Contact */
 
 /* latest news */
@@ -370,6 +408,7 @@ p {
 .our-team p {
   font-size: 16px;
   text-align: center;
+  margin: 0;
 }
 
 .our-team h3 {
@@ -442,6 +481,18 @@ p {
   /* Your styles for screens less than 420px go here */
   .header-nav div img {
     padding: 1rem 0;
+  }
+
+  #partner-grid {
+    grid-template-columns: 1fr;
+  }
+
+  #top {
+    grid-template-columns: 1fr;
+  }
+
+  #bottom {
+    grid-template-columns: 1fr;
   }
 
   .our-team .top {
