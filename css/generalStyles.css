@@ -98,6 +98,8 @@ p {
 header {
   height: 6rem;
   background-color: #ffffff;
+  position: relative;
+  z-index: 999;
 }
 
 .latest-news-card div li a.see-more {
@@ -441,4 +443,42 @@ header {
   .mobile-login-links {
     justify-content: center;
   }
+}
+#loader-wrapper {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: white; /* Set background color to white */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#crawford {
+  width: 200px;
+}
+
+#loading-spinner {
+  border: 4px solid #f3f3f3; /* Light grey */
+  border-top: 4px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.hide-spinner {
+  display: none;
 }
